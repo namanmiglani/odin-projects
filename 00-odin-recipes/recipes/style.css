@@ -1,4 +1,20 @@
 img{
     height: auto;
     width: 600;
+    margin: 0 auto;
+    display: block;
+}
+
+h1{
+    text-align: center;
+}
+
+ul{
+    display: block;
+    background-color: beige;
+}
+
+ol{
+    display: block;
+    background-color: beige;
 }
