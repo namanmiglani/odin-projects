@@ -1,5 +1,6 @@
+div {
+    text-align: center;
+}
 form {
-    display: flex;
-    justify-content:center;
-    align-items:center;
-  }
+    display: inline-block;
+}
