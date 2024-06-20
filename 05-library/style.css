@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(150, 105, 25);
+}
+
+#top-left {
+    display: flex;
+    align-items: center;
+}
+
+.book-image{
+    width: 100px;
+    height: auto;
+}
+
+.add-book{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    width: 75px;
+    height: 75px;
+    background-color: #8B4513;
+    color: white;
+}
+
+.color{
+    background-color: rgb(194, 178, 128);
+
+}
+
+table {
+    width: 100%;
+}
+  
+th {
+   height: 70px;
+}
+
+tr{
+    text-align: center;
+    
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+#book-dialog{
+    width: 400px;
+    height: 350px;
+    background-color: rgb(194, 178, 128);
+    border: 1px solid #cccccc;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px #cccccc;
+    border-radius: 10px;
+    z-index:1000;
+}
+
+.input{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.input-button{
+    padding-top: 20px;
+    margin-left: 100px;
+}
+
+form > h2 {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    padding-top: 15px;
+}
+
+#pages{
+    width: 125px;
+    margin-right: 40px;
+    height: 20px;
+}
+
+
+#bottom{
+    display: flex;
+    justify-content: center;
+}
+
+#add-book{
+    background-color: rgb(19, 224, 19);
+}
+
+#close{
+    background-color: red;
+}
+
+#add-book, #close{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    font-weight: 700;
+    border: 2px solid  rgb(194, 178, 128);
+}
+
+#author, #title {
+    width: 200px;
+    height: 20px;
+}
+
+body{
+    background-color: rgb(194, 178, 128);
+}
