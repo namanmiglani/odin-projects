@@ -112,7 +112,7 @@ class LibraryUI {
         const tableRow = document.createElement("tr");
         tableRow.setAttribute("data-index", index);
         tableRow.innerHTML = `
-            <td class="sticky-col sticky-left index-col">${index+1}</td>
+            <td>${index+1}</td>
             <td>${book.title}</td>
             <td>${book.author}</td>
             <td>${book.pages}</td>
@@ -120,7 +120,7 @@ class LibraryUI {
                 <input type="checkbox" ${book.isRead ? 'checked' : ''}>
                 <label style="display: none;" for="read1">Read</label>
             </td>
-             <td class="sticky-col sticky-right">
+             <td>
                  <button class="remove-button">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="50px" height="50px">
                         <g fill="#f5f5f5" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
@@ -177,3 +177,4 @@ document.addEventListener('DOMContentLoaded', () => {
     const library = new Library();
     const libManager = new LibraryUI(library);
 });
+
